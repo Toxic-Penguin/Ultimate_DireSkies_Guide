@@ -1,0 +1,43 @@
+*
+{
+	margin: 0px;
+	padding: 5px;
+}
+
+#Navigation {
+	font-size: 30px;
+	background-color: darkred;
+	border: 5px;
+	overflow: hidden;
+}
+
+#Navigation a {
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	display: flexbox;
+}
+
+#Navigation a.active {
+	border-bottom: 5px solid lime;
+}
+
+#Navigation a.hover {
+	border-bottom: 5px solid lime;
+}
+
+	nav {
+	display: block;
+}
+
+.Big_Heading {
+	font-family: fantasy;
+	background-color: purple;
+}
+
+
+.Article {
+	font-size: 25px;
+	text-align: center;
+}
+
