@@ -4,30 +4,30 @@
 	padding: 5px;
 }
 
-#Navigation {
-	font-size: 30px;
-	background-color: darkred;
-	border: 5px;
-	overflow: hidden;
+body {
+	background-color: gray;
 }
 
-#Navigation a {
+.Navigation {
+	overflow: hidden;
+	background-color: darkred;
+	position; fixed;
+}
+
+.Navigation a {
 	color: black;
 	text-align: center;
 	text-decoration: none;
-	display: flexbox;
+	font-size: 25px;
+	border-bottom: 3px solid transparent;
 }
 
-#Navigation a.active {
+.Navigation a:hover {
 	border-bottom: 5px solid lime;
 }
 
-#Navigation a.hover {
+.Navigation a.active {
 	border-bottom: 5px solid lime;
-}
-
-	nav {
-	display: block;
 }
 
 .Big_Heading {
