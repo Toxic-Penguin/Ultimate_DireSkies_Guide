@@ -57,10 +57,10 @@ nav a.active {
 	box-shadow: none;
 }
 
-.Big_Heading {
+h1 {
 	font-family: fantasy;
 	background-color: purple;
-	font-size: 30px;
+	font-size: 100px;
 	text-align: center;
 }
 
@@ -70,3 +70,9 @@ nav a.active {
 	text-align: center;
 }
 
+.center-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
