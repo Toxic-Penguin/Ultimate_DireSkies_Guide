@@ -6,28 +6,57 @@
 
 body {
 	background-color: red;
+	--navheight: 50px;
+	padding-top: var(--navheight);
 }
 
-.Navigation {
+
+
+nav {
 	overflow: hidden;
 	background-color: darkred;
-	position; fixed;
+	float: center;
+	text-align: center;
 }
 
-.Navigation a {
+.nav {
+	width: 100%;
+	height: var(--navheight);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	transition: transform 0.2s;
+}
+
+nav a {
 	color: black;
-	text-align: center;
 	text-decoration: none;
 	font-size: 25px;
 	border-bottom: 3px solid transparent;
+	font-weight: bold;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	overflow: hidden;
+	background-color: darkred;
+	height: var(--navheight);
+	float: center;
+	margin: 0 0.4em;
 }
 
-.Navigation a:hover {
+nav a:hover {
 	border-bottom: 5px solid lime;
 }
 
-.Navigation a.active {
+nav a.active {
 	border-bottom: 5px solid lime;
+}
+
+.nav--hidden {
+	transform: translateY(calc(-1 * var(--navheight)));
+	box-shadow: none;
 }
 
 .Big_Heading {
