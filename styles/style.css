@@ -15,8 +15,6 @@ body {
 nav {
 	overflow: hidden;
 	background-color: darkred;
-	float: center;
-	text-align: center;
 }
 
 .nav {
@@ -62,6 +60,8 @@ nav a.active {
 .Big_Heading {
 	font-family: fantasy;
 	background-color: purple;
+	font-size: 30px;
+	text-align: center;
 }
 
 
