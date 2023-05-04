@@ -14,6 +14,7 @@ body {
 nav {
 	overflow: hidden;
 	background-color: darkred;
+	justify-content: center;
 }
 
 .nav {
@@ -27,7 +28,8 @@ nav {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 	transition: transform 0.2s;
 	align-items: center;
-	margin: 0 auto
+	margin-left: auto;
+	margin-right: auto;
 }
 
 nav a {
@@ -41,7 +43,6 @@ nav a {
 	background-color: darkred;
 	height: 50px;
 	display: flex;
-	justify-content: center;
 }
 
 nav a:hover {
@@ -74,4 +75,8 @@ h1 {
 
 a {
 	color: black;
+}
+
+table, th, tr {
+	border: 1px solid black;
 }
